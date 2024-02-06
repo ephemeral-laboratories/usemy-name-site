@@ -1,3 +1,6 @@
+---
+---
+
 # Principle: Do not try to validate names
 
 There are no “special characters” which should cause trouble when encountered in a name, yet people

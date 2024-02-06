@@ -1,3 +1,6 @@
+---
+---
+
 # Examples to Follow
 
 This section provides real-life examples of organizations that excel in handling names respectfully

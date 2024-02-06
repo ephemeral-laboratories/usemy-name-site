@@ -1,3 +1,6 @@
+---
+---
+
 # External Resources
 
 Here, you can find a curated list of external resources, such as articles, books, websites,

@@ -1,3 +1,6 @@
+---
+---
+
 # Principle: Do not attempt to split a name into parts
 
 Now that you have [taken the person's name in a single text field](make-name-entry-a-single-field),
