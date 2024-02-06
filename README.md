@@ -1,7 +1,5 @@
+# Use My Name!
 
-Placeholder page for now.
+Finally getting around to making a proper site for the name activism stuff.
 
-- [Principles for Correct Handling of Names](principles/)
-- [Common Excuses](common-excuses)
-- [Examples to Follow](examples-to-follow)
-- [External Resources](external-resources)
+[Live site](https://usemy.name/)
