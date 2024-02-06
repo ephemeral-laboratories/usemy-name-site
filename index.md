@@ -3,6 +3,17 @@
 Welcome to "Use My Name!" –
 a comprehensive resource dedicated to promoting the importance of using names correctly and respectfully.
 
+## Submit your horror stories
+
+We are currently gathering horror stories for a new section on the site.
+
+Complain about a company which handled your name incorrectly!
+Get your name and story featured on this website!
+
+Your story can help raise awareness and prevent similar incidents in the future.
+
+[Share your experience today!](https://forms.gle/SRDrSaXxBxn9UwdA6)
+
 ## About this site
 
 **Names are not just words – they are integral to individual identity.**
