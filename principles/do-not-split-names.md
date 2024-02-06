@@ -1,7 +1,7 @@
 # Principle: Do not attempt to split a name into parts
 
-Now that you have [taken the person’s name in a single text field](make-name-entry-a-single-field),
-the same problems mean that you can’t intelligently split it into parts, so don’t even try.
+Now that you have [taken the person's name in a single text field](make-name-entry-a-single-field),
+the same problems mean that you can't intelligently split it into parts, so don't even try.
 
 If you really think you “need” a “first” name for addressing the person in communications, a more
 correct thing to do is have a separate text field for “preferred name”, or “preferred form of address”.
@@ -13,7 +13,7 @@ person might choose to be addressed as “Mr. Smith”. So make sure you make it
 will be used, perhaps by showing an example of the top of the email you would send out.
 
 Prefixes and suffixes are an interesting case of this. While removing some prefixes or suffixes
-doesn’t change the name, this is not always the case. A particularly obvious case of this is the
-suffix “Jr.”, where removing the suffix would result in naming the person’s parent.
+doesn't change the name, this is not always the case. A particularly obvious case of this is the
+suffix “Jr.”, where removing the suffix would result in naming the person's parent.
 
-> - Fallacy 14: People’s names sometimes have prefixes or suffixes, but you can safely ignore those.
+> - Fallacy 14: People's names sometimes have prefixes or suffixes, but you can safely ignore those.

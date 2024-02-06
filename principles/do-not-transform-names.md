@@ -1,6 +1,6 @@
 # Principle: Do not attempt to transform names
 
-Although this fallacy is perhaps vaguely worded (it’s easy to come up with algorithms
+Although this fallacy is perhaps vaguely worded (it's easy to come up with algorithms
 to transform any string to some kind of encoding and back), there are problems with
 some transformations you might try to perform.
 

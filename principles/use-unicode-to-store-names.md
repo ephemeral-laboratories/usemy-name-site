@@ -8,8 +8,8 @@ use characters outside of basic 7-bit ASCII in their languages, and of course in
 > “the distribution of non-alphanumerics in names maps to ethnic groups, so rejecting them is essentially racism” \
 > — Mark (no other name given)
 
-> - Fallacy 9: People’s names are written in ASCII.
-> - Fallacy 10: People’s names are written in any single character set.
+> - Fallacy 9: People's names are written in ASCII.
+> - Fallacy 10: People's names are written in any single character set.
 > - Fallacy 24: My system will never have to deal with names from China.
 > - Fallacy 25: Or Japan.
 > - Fallacy 26: Or Korea.

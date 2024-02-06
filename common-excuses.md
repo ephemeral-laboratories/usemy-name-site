@@ -1,6 +1,12 @@
 # Common Excuses
 
-A collection of false claims commonly heard while filing complaints myself.
+In this section, common excuses or justifications for incorrect handling of names
+are addressed and debunked. By highlighting these excuses, users can become more aware
+of potential pitfalls and learn how to overcome them when encountering challenges
+in using names correctly.
+
+So far, all of these were gathered while filing complaints myself.
+
 
 ## “There is no standard way to represent names with only one part!”
 
@@ -25,7 +31,7 @@ Digital iD made this even harder for themselves, by making the user
 enter their name on one screen, and then reading their passport on the
 next screen. A much simpler and less error-prone way to implement the
 same thing would be to read the passport first. Then assume that what
-the passport says about the user’s name is accurate. It is, after all,
+the passport says about the user's name is accurate. It is, after all,
 a primary ID document.
 
 ## “Our users asked us to require both first name and last name!”
@@ -43,7 +49,7 @@ Do you have a problem where you always respond “yes” to user requests?
 
 As an engineer, it is your job to say “no” to unrealistic, immoral, and
 incorrect requests. If you just say “yes” to everything your user asks for,
-you’re not doing your job.
+you're not doing your job.
 
 Shopify made this claim while I was reporting the issue to them, but when
 I pressed for concrete reasons for why two name parts were needed, they
@@ -51,7 +57,7 @@ were unable to give any. Likewise, every time this one has been used by
 other companies, when I pressed for reasons, nobody seemed to know what
 the point of enforcing two names was.
 
-I can tell you for certain that it isn’t making it any simpler to search
+I can tell you for certain that it isn't making it any simpler to search
 for names in the system. What you want for that, is for everyone to have
 their accurate name in the system. Forcing two name parts ensures that all
 these people will have false names in the system, which will only make

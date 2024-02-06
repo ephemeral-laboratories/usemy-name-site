@@ -2,7 +2,7 @@
 
 This is probably the most intuitively obvious one.
 
-People’s names are certainly not globally unique.
+People's names are certainly not globally unique.
 
 30,000 people in the US are named “James Smith”, the most common name.
 [Source](https://fivethirtyeight.com/features/whats-the-most-common-name-in-america/)
@@ -10,17 +10,17 @@ People’s names are certainly not globally unique.
 The company I worked for at the time of writing this had an employee named Michael Jackson,
 who had never released any hit singles, or at least, none I was aware of.
 
-From this alone, you can not assume that if two names match, they’re the same person.
+From this alone, you can not assume that if two names match, they're the same person.
 This is of course why we generally use email addresses, not names, as user IDs.
 
-> - Fallacy 21: People’s names are globally unique.
-> - Fallacy 22: People’s names are almost globally unique.
-> - Fallacy 23: Alright alright but surely people’s names are diverse enough such that no million people
+> - Fallacy 21: People's names are globally unique.
+> - Fallacy 22: People's names are almost globally unique.
+> - Fallacy 23: Alright alright but surely people's names are diverse enough such that no million people
 >   share the same name.
 
 Beyond that, a single person can have multiple names. Even multiple _legal_ names.
 Sometimes this happens during transition from one name to another, sometimes a person
-may have multiple legal names for life. So it’s very possible that two names that _don’t_
+may have multiple legal names for life. So it's very possible that two names that _don't_
 match are in fact referring to the same person.
 
 > - Fallacy 1: People have exactly one canonical full name.
@@ -42,9 +42,9 @@ as pre-composed Unicode characters, or using combining marks, depending on the s
 used to enter them. To cover this, it is always recommended to normalise any Unicode strings
 which come from outside your system, including from the user, and including names.
 
-> - Fallacy 12: People’s names are case sensitive.
-> - Fallacy 13: People’s names are case insensitive.
-> - Fallacy 38: Two different data entry operators, given a person’s name, will by necessity enter
+> - Fallacy 12: People's names are case sensitive.
+> - Fallacy 13: People's names are case insensitive.
+> - Fallacy 38: Two different data entry operators, given a person's name, will by necessity enter
 >   bitwise equivalent strings on any single system, if the system is well-designed.
 
 So in general, a system will not be able to use this information to determine conclusively

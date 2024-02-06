@@ -1,6 +1,11 @@
 # External Resources
 
-- [Representing People’s Names in Dublin Core][1] (Andrew Waugh)
+Here, you can find a curated list of external resources, such as articles, books, websites,
+or organizations, that offer additional information about names, or correctly handling them.
+These external resources complement the content provided on the site and offer
+opportunities for further learning and exploration.
+
+- [Representing People's Names in Dublin Core][1] (Andrew Waugh)
 - [Personal names around the world][2] (Richard Ishida, W3C)
 - [Falsehoods Programmers Believe About Names][3] (Patrick McKenzie)
 - [Falsehoods Programmers Believe About Names – With Examples][4] (Tony Rogers)

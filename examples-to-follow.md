@@ -1,16 +1,20 @@
 # Examples to Follow
 
-The following is a collection of places where people did things right.
+This section provides real-life examples of organizations that excel in handling names respectfully
+and inclusively. By showcasing positive examples, the reader can gain inspiration and practical insights
+into implementing best practices in their own environment.
 
 ## US Government
 
-> “People have a wide variety of names in various formats. It can be confusing and alienating for them to enter their name if it doesn’t conform to the form fields provided, or if the form fields don’t support the characters, length, or language they require.”
+> “People have a wide variety of names in various formats. It can be confusing and alienating for them
+> to enter their name if it doesn't conform to the form fields provided, or if the form fields don't
+> support the characters, length, or language they require.”
 
 — [Name | U.S. Web Design System (USWDS)][1]
 
 ## UK Government
 
-> “Not everyone’s name fits the first-name, last-name format.”
+> “Not everyone's name fits the first-name, last-name format.”
 
 — [Names – GOV.UK Design System][2]
 
