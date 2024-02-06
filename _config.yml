@@ -16,6 +16,7 @@ remote_theme: pages-themes/cayman@v0.2.0
 # Theme settings / site variables
 title: "Use My Name!"
 description: A comprehensive resource dedicated to promoting the importance of using names correctly and respectfully.
+copyright: "Copyright ©️ 2024 Use My Name! Project"
 google_analytics: G-SD5G0LEHCX
 show_downloads: false
 

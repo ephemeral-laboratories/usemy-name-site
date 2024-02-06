@@ -24,7 +24,9 @@
       {{ content }}
 
       <footer class="site-footer">
-        <!-- nothing in here right now -->
+        {% if site.copyright %}
+          <span class="site-footer-credits">{{ site.copyright }}</span>
+        {% endif %}
       </footer>
     </main>
   </body>
