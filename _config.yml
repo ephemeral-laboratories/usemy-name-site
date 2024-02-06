@@ -1,0 +1,11 @@
+
+plugins:
+  - jekyll-remote-theme
+
+# Theme settings
+title: Use My Name!
+description: A comprehensive resource dedicated to promoting the importance of using names correctly and respectfully.
+google_analytics: G-SD5G0LEHCX
+show_downloads: false
+
+remote_theme: pages-themes/cayman@v0.2.0
