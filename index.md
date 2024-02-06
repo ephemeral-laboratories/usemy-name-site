@@ -1,6 +1,4 @@
 
-Placeholder page for now.
-
 - [Principles for Correct Handling of Names](principles/)
 - [Common Excuses](common-excuses)
 - [Examples to Follow](examples-to-follow)
