@@ -1,7 +1,6 @@
 ---
+title: "Principle: Make name entry a single field"
 ---
-
-# Principle: Make name entry a single field
 
 Do not separate the text fields for first and last name.
 

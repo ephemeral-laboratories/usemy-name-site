@@ -1,7 +1,6 @@
 ---
+title: "Principle: Do not force a user to enter a name at all"
 ---
-
-# Principle: Do not force a user to enter a name at all
 
 In many cases, it's not OK to assume that someone even has a name, so allowing the entire field
 to be blank is still recommended.

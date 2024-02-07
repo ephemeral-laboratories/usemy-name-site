@@ -1,6 +1,6 @@
 
 plugins:
-  - jekyll-remote-theme
+  - jekyll-seo-tag
 
 # Jekyll defaults
 defaults:
@@ -10,8 +10,7 @@ defaults:
     values:
       layout: "default"
 
-url: https://usemy.name/
-remote_theme: pages-themes/cayman@v0.2.0
+url: https://usemy.name
 
 # Theme settings / site variables
 title: "Use My Name!"
@@ -19,6 +18,9 @@ description: A comprehensive resource dedicated to promoting the importance of u
 copyright: "Copyright ©️ 2024 Use My Name! Project"
 google_analytics: G-SD5G0LEHCX
 show_downloads: false
+
+twitter:
+  username: "@usemy_dot_name"
 
 github:
   is_project_page: false

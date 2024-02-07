@@ -1,7 +1,6 @@
 ---
+title: "Principle: Allow the user to update their own name"
 ---
-
-# Principle: Allow the user to update their own name
 
 If your system lets a person enter a name, it should also let them change it, as frequently as they want.
 You would think most developers would do this, but the appearance of these on the list suggests that the

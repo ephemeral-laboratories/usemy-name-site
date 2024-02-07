@@ -1,7 +1,6 @@
 ---
+title: Principles for Correct Handling of Names
 ---
-
-# Principles for Correct Handling of Names
 
 The following is a list of guiding principles for handling names correctly.
 

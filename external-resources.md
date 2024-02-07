@@ -1,7 +1,6 @@
 ---
+title: External Resources
 ---
-
-# External Resources
 
 Here, you can find a curated list of external resources, such as articles, books, websites,
 or organizations, that offer additional information about names, or correctly handling them.

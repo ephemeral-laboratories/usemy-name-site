@@ -1,7 +1,6 @@
 ---
+title: "Principle: Do not attempt to “cleverly” sort names"
 ---
-
-# Principle: Do not attempt to “cleverly” sort names
 
 If someone asks for names to be sortable, the best you can possibly do is basic
 lexicographical sorting, or possibly Unicode collation. And even if you do one

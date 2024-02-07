@@ -1,7 +1,6 @@
 ---
+title: "Principle: If possible, allow a person to input their name as an image and/or sound"
 ---
-
-# Principle: If possible, allow a person to input their name as an image and/or sound
 
 If you really want to allow entering 100% of people's names, you have to face
 the possibility that their name is not representable in current Unicode code points.

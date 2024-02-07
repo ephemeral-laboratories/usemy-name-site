@@ -1,7 +1,6 @@
 ---
+title: "Common Excuses"
 ---
-
-# Common Excuses
 
 In this section, common excuses or justifications for incorrect handling of names
 are addressed and debunked. By highlighting these excuses, users can become more aware

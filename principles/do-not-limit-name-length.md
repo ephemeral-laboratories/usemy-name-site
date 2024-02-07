@@ -1,7 +1,6 @@
 ---
+title: "Principle: Do not impose a limit on name length"
 ---
-
-# Principle: Do not impose a limit on name length
 
 When designing a database, it's fairly common to think that names can be packed into a reasonably
 small VARCHAR field, but any limit you put in there will eventually be broken by someone.

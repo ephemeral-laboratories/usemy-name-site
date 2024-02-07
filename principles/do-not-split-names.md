@@ -1,7 +1,6 @@
 ---
+title: "Principle: Do not attempt to split a name into parts"
 ---
-
-# Principle: Do not attempt to split a name into parts
 
 Now that you have [taken the person's name in a single text field](make-name-entry-a-single-field),
 the same problems mean that you can't intelligently split it into parts, so don't even try.

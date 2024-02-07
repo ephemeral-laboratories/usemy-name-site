@@ -1,7 +1,6 @@
 ---
+title: Use My Name!
 ---
-
-# Use My Name!
 
 Welcome to "Use My Name!" –
 a comprehensive resource dedicated to promoting the importance of using names correctly and respectfully.

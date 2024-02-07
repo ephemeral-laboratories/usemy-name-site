@@ -1,7 +1,6 @@
 ---
+title: "Examples to Follow"
 ---
-
-# Examples to Follow
 
 This section provides real-life examples of organizations that excel in handling names respectfully
 and inclusively. By showcasing positive examples, the reader can gain inspiration and practical insights

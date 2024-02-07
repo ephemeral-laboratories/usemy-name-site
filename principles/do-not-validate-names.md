@@ -1,7 +1,6 @@
 ---
+title: "Principle: Do not try to validate names"
 ---
-
-# Principle: Do not try to validate names
 
 There are no “special characters” which should cause trouble when encountered in a name, yet people
 regularly encounter cases of systems rejecting their names as “invalid”. Obviously, if a government
