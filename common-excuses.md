@@ -10,7 +10,7 @@ in using names correctly.
 So far, all of these were gathered while filing complaints myself.
 
 
-## “There is no standard way to represent names with only one part!”
+## "There is no standard way to represent names with only one part!"
 
 My own passport is proof that there is a standard way to represent it.
 
@@ -36,7 +36,7 @@ same thing would be to read the passport first. Then assume that what
 the passport says about the user's name is accurate. It is, after all,
 a primary ID document.
 
-## “Our users asked us to require both first name and last name!”
+## "Our users asked us to require both first name and last name!"
 
 Do you have a problem where you always respond “yes” to user requests?
 
@@ -69,3 +69,19 @@ My own name is on the electoral roll as one name only, and it just
 ends up in the list sorted along with the rest of the names. I have
 experienced two elections since changing it, and neither time did they
 have any issue finding my name in the book.
+
+## "The last name is required for legal reasons"
+
+Clearly false, because a last name is not required in the first place.
+See my passport or any other ID documents for proof of that.
+
+As yet, nobody has cited an actual law which requires this.
+
+Most likely, a law would only require:
+
+1. that the name be accurate; and
+2. that the name be the person's full name.
+
+And of course, having people with only one name fill in a fake name
+just to satisfy the badly-designed app only serves to clutter the
+database with inaccurate names.
