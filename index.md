@@ -47,3 +47,4 @@ starting with the simple yet profound act of using them correctly.
 - [Common Excuses](common-excuses)
 - [Examples to Follow](examples-to-follow)
 - [External Resources](external-resources)
+- [Privacy Policy](privacy)
