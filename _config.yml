@@ -17,10 +17,6 @@ title: "Use My Name!"
 description: A comprehensive resource dedicated to promoting the importance of using names correctly and respectfully.
 copyright: "Copyright ©️ 2024 Use My Name! Project"
 google_analytics: G-SD5G0LEHCX
-show_downloads: false
 
 twitter:
   username: "@usemy_dot_name"
-
-github:
-  is_project_page: false
