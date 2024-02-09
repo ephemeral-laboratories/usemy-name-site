@@ -9,6 +9,7 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+      image: /assets/images/name-tag.png
 
 url: https://usemy.name
 
