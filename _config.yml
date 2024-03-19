@@ -1,6 +1,7 @@
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Jekyll defaults
 defaults:
@@ -12,6 +13,9 @@ defaults:
       image: /assets/images/name-tag.png
 
 url: https://usemy.name
+
+# Purely to remove the file extension from links
+permalink: /:categories/:year/:month/:day/:title
 
 # Theme settings / site variables
 title: "Use My Name!"
