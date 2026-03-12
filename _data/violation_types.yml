@@ -1,0 +1,15 @@
+- id: splits_name
+  title: The site splits the name field into separate fields for given name and surname
+  notes:
+    - While not necessarily a problem in its own right, in the vast majority of cases,
+      such sites will have further issues handling the additional fields.
+  see_also:
+    - title: "Principle: Make name entry a single field"
+    - url: /principles/make-name-entry-a-single-field
+
+- id: mandatory_surname
+  title: The site's surname field is mandatory
+  notes: []
+  see_also:
+    - title: "Principle: Make name entry a single field"
+    - url: /principles/make-name-entry-a-single-field

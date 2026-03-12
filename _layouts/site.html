@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+{% assign drop = page.drop %}
+
+<article class="site">
+    <section>
+        <h2>Summary</h2>
+        <ul>
+            <li>Domain: <a href="https://{{ drop.domain }}">{{ drop.domain }}</a></li>
+            <li>Last updated: {{ drop.last_updated }}</li>
+        </ul>
+    </section>
+
+    <section class="site-violations">
+        {% if drop.violations.size == 0 %}
+            <h2>No violations</h2>
+            <p>No violations have been recorded for this site.</p>
+        {% else %}
+            {% if drop.violations.size == 1 %}
+                <h2>1 violation</h2>
+            {% else %}
+                <h2>{{ drop.violations.size }} violations</h2>
+            {% endif %}
+            <ol>
+                {% for violation in drop.violations %}
+                    <li>
+                        <strong>{{ violation.title }}</strong>
+                        {% if violation.notes.size > 0 or violation.workarounds.size > 0 %}
+                            <ul>
+                                {% for note in violation.notes %}
+                                    <li>{{ note | inline_markdownify }}</li>
+                                {% endfor %}
+                                {% if violation.workarounds.size > 0 %}
+                                    <li>
+                                        <em>Known workarounds:</em>
+                                        <ul>
+                                            {% for workaround in violation.workarounds %}
+                                                <li>{{ workaround | inline_markdownify }}</li>
+                                            {% endfor %}
+                                        </ul>
+                                    </li>
+                                {% endif %}
+                            </ul>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ol>
+        {% endif %}
+    </section>
+</article>

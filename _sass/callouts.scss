@@ -1,0 +1,24 @@
+p.note, p.warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+
+  &::before {
+    display: block;
+  }
+
+  &:first-letter {
+    font-weight: bold;
+  }
+}
+
+p.note::before {
+  content: 'ⓘ️ Note:';
+  color: #0000ff;
+}
+
+p.warning::before {
+  content: '⚠ Warning:';
+  color: #a0a000;
+}

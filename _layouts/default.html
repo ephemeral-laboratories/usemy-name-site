@@ -13,23 +13,21 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
-
-    <header class="page-header" role="banner">
+    <header role="banner">
       {% include breadcrumbs.html %}
       <h1 class="project-name">{{ page.title | default: site.title }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
-      <a href="/principles/" class="btn">Principles</a>
-      <a href="/contact" class="btn">Contact</a>
-      <a href="https://github.com/sponsors/ephemeral-laboratories" class="btn"><i class="fa-regular fa-heart"></i> Sponsor</a>
+      <a href="/principles/" class="button">Principles</a>
+      <a href="/contact" class="button">Contact</a>
+      <a href="https://github.com/sponsors/ephemeral-laboratories" class="button"><i class="fa-regular fa-heart"></i> Sponsor</a>
     </header>
 
-    <main id="content" class="main-content" role="main">
+    <main role="main">
       {{ content }}
 
-      <footer class="site-footer">
+      <footer>
         {% if site.copyright %}
-          <span class="site-footer-credits">{{ site.copyright }}</span>
+          <span class="copyright">{{ site.copyright }}</span>
         {% endif %}
       </footer>
     </main>

@@ -1,0 +1,217 @@
+.highlight {
+
+  // region The code container
+
+  table td {
+    padding: 5px;
+  }
+
+  table pre {
+    margin: 0;
+  }
+
+  --code-text-color: #49483e;
+  --code-text-background-color: white;
+  --code-error-color: #f92672;
+  --code-error-background-color: #272822;
+
+  --code-keyword-color: #ae81ff;
+  --code-name-color: #f4bf75;
+  --code-literal-string-color: #a6e22e;
+  --code-literal-string-affix-color: #ae81ff;
+  --code-literal-string-embeds-color: #cc6633;
+  --code-literal-number-color: #a6e22e;
+  --code-literal-regex-color: #a1efe4;
+  --code-attribute-color: #66d9ef;
+  --code-operator-color: #49483e;
+  --code-punctuation-color: #49483e;
+  --code-comment-color: #75715e;
+  --code-comment-preproc-color: #f4bf75;
+  --code-generic-inserted-color: #a6e22e;
+  --code-generic-deleted-color: #272822;
+  --code-generic-heading-color: #66d9ef;
+  --code-generic-heading-background-color: #272822;
+
+  @media (prefers-color-scheme: dark) {
+    // Can you believe these are the _only_ rules which differed for this theme's light vs. dark?
+    --code-text-color: #f8f8f2;
+    --code-text-background-color: #272822;
+  }
+
+  // endregion
+
+  // region Default token types
+
+  // Text
+  color: var(--code-text-color);
+  background-color: var(--code-text-background-color);
+
+  // Text.Whitespace
+  .w {
+    color: var(--code-text-color);
+    background-color: var(--code-text-background-color);
+  }
+
+  // endregion
+
+  // region Top-level token types
+
+  // Escape
+  .esc {}
+
+  // Error
+  .err {
+    color: var(--code-error-color);
+    background-color: var(--code-error-background-color);
+  }
+
+  // Other
+  .x {}
+
+  // endregion
+
+  // region Keyword token family
+
+  // Keyword, Keyword.Namespace, Keyword.Pseudo, Keyword.Reserved, Keyword.Variable
+  .k, .kn, .kp, .kr, .kv {
+    color: var(--code-keyword-color);
+  }
+
+  // Keyword.Constant, Keyword.Declaration, Keyword.Type
+  .kc, .kd, .kt, {
+    color: #fd971f;
+  }
+
+  // endregion
+
+  // region Name token family
+
+  // Name
+  .n {}
+
+  // Name.Attribute
+  .na {
+    color: var(--code-attribute-color);
+  }
+
+  // Name.Class, Name.Namespace, Name.Constant, Name.Tag
+  .nc, .nn, .no, .nt {
+    color: var(--code-name-color);
+  }
+
+  // Name.Builtin, Name.Builtin.Pseudo, Name.Decorator, Name.Entity, Name.Exception, Name.Function,
+  // Name.Function.Magic, Name.Property, Name.Label, Name.Other, Name.Variable, Name.Variable.Class,
+  // Name.Variable.Global, Name.Variable.Instance, Name.Variable.Magic
+  .nb, .bp, .nd, .ni, .ne, .nf, .fm, .py, .nl, .nx, .nv, .vc, .vg, .vi, .vm {}
+
+  //endregion
+
+  // region Literal token family
+
+  // Literal
+  .l {}
+
+  // Literal.Date
+  .ld {}
+
+  // Literal.String, Literal.String.Backtick, Literal.String.Char, Literal.String.Delimiter, Literal.String.Doc,
+  // Literal.String.Double, Literal.String.Heredoc, Literal.String.Other, Literal.String.Single, Literal.String.Symbol
+  .s, .sb, .sc, .dl, .sd, .s2, .sh, .sx, .s1, .ss {
+    color: var(--code-literal-string-color);
+  }
+
+  // Literal.String.Escape, Literal.String.Interpol
+  .se, .si {
+    color: var(--code-literal-string-embeds-color);
+  }
+
+  // Literal.String.Regex
+  .sr {
+    color: var(--code-literal-regex-color);
+  }
+
+  // Literal.String.Affix
+  .sa {
+    color: var(--code-literal-string-affix-color);
+  }
+
+  // Literal.Number, Literal.Number.Bin, Literal.Number.Float, Literal.Number.Hex, Literal.Number.Integer,
+  // Literal.Number.Integer.Long, Literal.Number.Oct, Literal.Number.Other,
+  .m, .mb, .mf, .mh, .mi, .il, .mo, .mx {
+    color: var(--code-literal-number-color);
+  }
+
+  // endregion
+
+  // region Operator token family
+
+  // Operator, Operator.Word
+  .o, .ow {
+    color: var(--code-operator-color);
+  }
+
+  // endregion
+
+  // region Punctuation token family
+
+  // Punctuation, Punctuation.Indicator
+  .p, .pi {
+    color: var(--code-punctuation-color);
+  }
+
+  // endregion
+
+  // region Comment token family
+
+  // Comment, Comment.Hashbang, Comment.Doc, Comment.Multiline, Comment.PreprocFile, Comment.Single, Comment.Special
+  .c, .ch, .cd, .cm, .cpf, .c1, .cs {
+    color: var(--code-comment-color);
+  }
+
+  // Comment.Preproc
+  .cp {
+    color: var(--code-comment-preproc-color);
+  }
+
+  // endregion
+
+  // region Generic token family
+
+  // Generic, Generic.Error, Generic.Lineno, Generic.Output, Generic.Prompt, Generic.Subheading, Generic.Traceback
+  .g, .gr, .gl, .go, .gp, .gu, .gt {}
+
+  // Generic.Emph, Generic.EmphStrong
+  .ge, .ges {
+    font-style: italic;
+  }
+
+  // Generic.Heading, Generic.Strong, Generic.EmphStrong
+  .gh, .gs, .ges {
+    font-weight: bold;
+  }
+
+  // Generic.Heading
+  .gh {
+    color: var(--code-generic-heading-color);
+    background-color: var(--code-generic-heading-background-color);
+  }
+
+  // Generic.Inserted
+  .gi {
+    color: var(--code-generic-inserted-color);
+  }
+
+  // Generic.Deleted
+  .gd {
+    color: var(--code-generic-deleted-color)
+  }
+
+  // endregion
+}
+
+
+
+
+
+
+

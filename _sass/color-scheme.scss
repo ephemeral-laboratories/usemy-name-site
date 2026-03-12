@@ -1,0 +1,58 @@
+@property --dark-mix {
+  syntax: '<percentage>';
+  inherits: true;
+  initial-value: 0%;
+}
+
+:root {
+
+  // Colours which are reused for many properties
+  --primary-accent-color: #159957;
+  --secondary-accent-color: #155799;
+  --error-color: #ff6347;
+  --light-shared-content-color: #606c71;
+  --light-shared-background-color: #ffffff;
+  // Beware: The preview colour shown in the gutter is not the actual colour!
+  --light-shared-border-color: oklch(from var(--secondary-accent-color) l calc(c * 0.5) h);
+
+  // Fixed header colour scheme
+  --header-content-color: #ffffff;
+  --header-primary-background-color: var(--primary-accent-color);
+  --header-secondary-background-color: var(--secondary-accent-color);
+
+  // Light/dark mix
+  --dark-mix: 0%;
+  transition: --dark-mix 0.4s ease-in-out;
+  @function light-dark-mix($light-color) {
+    @return oklch(from #{$light-color} calc(l * (100% - var(--dark-mix)) + (1.1 - l) * var(--dark-mix)) c h / alpha);
+  }
+
+  --main-content-color: #{ light-dark-mix(var(--light-shared-content-color)) };
+  --main-background-color: #{ light-dark-mix(var(--light-shared-background-color)) };
+  --footer-content-color: #{ light-dark-mix(var(--light-shared-content-color)) };
+  --footer-background-color: #{ light-dark-mix(var(--light-shared-background-color)) };
+  --footer-border-color: #{ light-dark-mix(var(--light-shared-border-color)) };
+
+  --section-heading-color: #{ light-dark-mix(var(--primary-accent-color)) };
+  --link-color: #{ light-dark-mix(var(--secondary-accent-color)) };
+  // Code colours are chosen to match `--code-text-color` in the rouge colour scheme,
+  // so its theme will also apply to inline code blocks and the like.
+  --code-content-color: #{ light-dark-mix(#49483e) };
+  --code-background-color: #{ light-dark-mix(white) };
+  --blockquote-content-color: #{ light-dark-mix(var(--light-shared-content-color)) };
+  --blockquote-background-color: #{ light-dark-mix(rgb(black, 0.2)) };
+  --blockquote-border-color: #{ light-dark-mix(var(--light-shared-border-color)) };
+  --code-border-color: #{ light-dark-mix(var(--light-shared-border-color)) };
+  --table-border-color: #{ light-dark-mix(#e9ebec) };
+  --divider-border-color: #{ light-dark-mix(#eff0f1) };
+  --kbd-content-color: #{ light-dark-mix(#444d56) };
+  --kbd-background-color: #{ light-dark-mix(#fafbfc) };
+  --kbd-border-color: #{ light-dark-mix(#c6cbd1) };
+  --kbd-shadow-color: #{ light-dark-mix(#959da5) };
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --dark-mix: 100%;
+  }
+}

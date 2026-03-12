@@ -1,4 +1,13 @@
 ---
 ---
 
-@import 'jekyll-theme-cayman';
+@use 'jekyll-theme-cayman';
+@use 'callouts';
+
+// Alternate heading colors when inside a violation block.
+// I didn't want people seeing nice green headers and thinking, "we have no problems".
+section.site-violations {
+  h1, h2, h3, h4, h5, h6, ol > li::marker, ol > li > :first-child {
+    color: var(--error-color);
+  }
+}

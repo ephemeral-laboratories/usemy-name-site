@@ -1,0 +1,24 @@
+- domain: linkedin.com
+  name: LinkedIn
+  violations:
+    - type: splits_name
+      source: hakanai
+    - type: mandatory_surname
+      source: hakanai
+      workarounds:
+        - U+200B ZERO WIDTH SPACE
+    - type: custom
+      source: hakanai
+      title: Verification rejects valid ID if your name is a mononym
+      notes:
+        - LinkedIn's verification (provided by Persona) does not work with passports if your name is a mononym.
+        - This is made worse by LinkedIn's claim that verified accounts have a higher chance of finding employment.
+        - When LinkedIn support was contacted, they pointed fingers at Persona.
+        - When Persona support was contacted, they pointed fingers at LinkedIn.
+  created: 2026-03-12
+  last_updated: 2026-03-12
+
+- domain: example.com
+  violations: []
+  created: 2026-03-12
+  last_updated: 2026-03-12

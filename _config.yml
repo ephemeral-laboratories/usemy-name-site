@@ -2,6 +2,7 @@
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-target-blank
 
 # Jekyll defaults
 defaults:
@@ -12,6 +13,14 @@ defaults:
       layout: "default"
       image: /assets/images/name-tag.png
 
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - ".idea"
+
+sass:
+  verbose: true
+
 url: https://usemy.name
 
 # Purely to remove the file extension from links
@@ -20,8 +29,16 @@ permalink: /:categories/:year/:month/:day/:title
 # Theme settings / site variables
 title: "Use My Name!"
 description: A comprehensive resource dedicated to promoting the importance of using names correctly and respectfully.
-copyright: "Copyright ©️ 2024 Use My Name! Project"
+copyright: "Copyright ©️ 2024,2026 Use My Name! Project"
 google_analytics: G-SD5G0LEHCX
+
+callouts:
+  note:
+    title: Note
+    color: blue
+  warning:
+    title: Warning
+    color: yellow
 
 twitter:
   username: "@usemy_dot_name"
