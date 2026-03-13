@@ -1,7 +1,8 @@
 @use 'browser-workarounds';
 @use 'color-scheme';
 @use 'rouge-github-base16-monokai-auto';
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+// Has to match the same URL in `default.html`!
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 // <editor-fold desc="Screen size mixins">
 // ┌──────────────────────────────────────────────────────────────┐
