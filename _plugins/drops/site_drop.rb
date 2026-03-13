@@ -13,6 +13,10 @@ class SiteDrop < BaseDrop
         validate(violations, 'violations').required.must_be_array_of(Hash)
         validate(created, 'created').required.must_be(Date)
         validate(last_updated, 'last_updated').required.must_be(Date)
+
+        if !@name
+            @name = @domain
+        end
     end
 
     def do_remapping

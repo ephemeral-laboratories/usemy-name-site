@@ -18,6 +18,9 @@ exclude:
   - "Gemfile.lock"
   - ".idea"
 
+liquid:
+  error_mode: strict
+
 sass:
   verbose: true
 
@@ -30,7 +33,8 @@ permalink: /:categories/:year/:month/:day/:title
 title: "Use My Name!"
 description: A comprehensive resource dedicated to promoting the importance of using names correctly and respectfully.
 copyright: "Copyright ©️ 2024,2026 Use My Name! Project"
-google_analytics: G-SD5G0LEHCX
+# google_analytics: G-SD5G0LEHCX
+google_tag_manager: GT-TQVFT5T
 
 callouts:
   note:

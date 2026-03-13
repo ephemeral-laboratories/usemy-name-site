@@ -11,7 +11,7 @@ title: Sites
         {% for record in site.data.sites %}
         {% if record.domain %}
         <li class="sites-index__item">
-            <a href="{{ '/sites/' | append: record.domain | append: '/' | relative_url }}">{{ record.name | default: record.domain }}</a>
+            <a href="{{ '/sites/' | append: record.domain | append: '/' | relative_url }}">{{ record.name }}</a>
             {% if record.violations == "no" %}
             <span class="badge badge--ok">No violations</span>
             {% elsif record.violations %}

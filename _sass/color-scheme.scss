@@ -6,9 +6,11 @@
 
 :root {
 
-  // Colours which are reused for many properties
-  --primary-accent-color: #159957;
-  --secondary-accent-color: #155799;
+  // Colours which are reused for many properties.
+  // BTW, if you update the primary accent colour, you should update `theme-color` in `default.html` to match.
+  --primary-accent-color: #12867e;
+  --secondary-accent-color: #204691;
+  --tertiary-accent-color: #3c2496;
   --error-color: #ff6347;
   --light-shared-content-color: #606c71;
   --light-shared-background-color: #ffffff;
@@ -35,6 +37,7 @@
 
   --section-heading-color: #{ light-dark-mix(var(--primary-accent-color)) };
   --link-color: #{ light-dark-mix(var(--secondary-accent-color)) };
+  --link-visited-color: #{ light-dark-mix(var(--tertiary-accent-color)) };
   // Code colours are chosen to match `--code-text-color` in the rouge colour scheme,
   // so its theme will also apply to inline code blocks and the like.
   --code-content-color: #{ light-dark-mix(#49483e) };
