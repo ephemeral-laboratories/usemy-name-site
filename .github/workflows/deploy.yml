@@ -30,8 +30,8 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          # nokogiri-1.16.7-x86_64-linux requires ruby version < 3.4.dev, >= 3.0
-          ruby-version: "3.2"
+          # Local dev environment is on 3.3, trying anything to get it to build
+          ruby-version: "3.3"
           bundler-cache: true
           cache-version: 0
       - name: Setup Pages
